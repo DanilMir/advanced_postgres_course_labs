@@ -1,7 +1,7 @@
 -- Создаем таблицу-концентратор
 CREATE TABLE hub_table (
   id INT PRIMARY KEY,
-  name VARCHAR(255) NOT NULL
+  name VARCHAR
 );
 
 -- Создаем дочерние таблицы
