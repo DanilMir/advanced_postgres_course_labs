@@ -2,7 +2,7 @@ version: '3.5'
 services:
   flyway-pg:
     container_name: flyway-pg
-    image: postgres:12-alpine # postgres 15? mb
+    image: postgres:15-alpine # postgres 15? mb
     restart: unless-stopped
     environment:
       - POSTGRES_USER=postgres

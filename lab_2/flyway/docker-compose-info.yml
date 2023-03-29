@@ -2,7 +2,7 @@ version: '3.5'
 services:
   flyway:
     container_name: flyway
-    image: flyway/flyway:7-alpine
+    image: flyway/flyway:9-alpine
     command: -url=jdbc:postgresql://flyway-pg/lab_2 -connectRetries=60 -user=postgres -password=password info
     volumes:
       - ./migrations:/flyway/sql
