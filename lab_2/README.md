@@ -24,22 +24,22 @@
 # Решение 
 
 Первый этап затрагивает первые 6 пунктов
-'''
+```
 sh first_step.sh
-'''
+```
 
 Вывод графика
-'''
+```
 python graph_distribution.py
-'''
+```
 
 
 Второй этап затрагивает пункт для массового UPDATE
-'''
+```
 sh second_step(update_tables).sh
-'''
+```
 
 Вывод графика
-'''
+```
 python graph_distribution.py
-'''
+```
