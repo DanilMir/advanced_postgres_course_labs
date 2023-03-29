@@ -1,6 +1,6 @@
 -- Создаем таблицу-концентратор
 CREATE TABLE hub_table (
-  id INT PRIMARY KEY,
+  id INT,
   name VARCHAR
 );
 

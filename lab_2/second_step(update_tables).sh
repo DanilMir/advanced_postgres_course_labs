@@ -1,0 +1,1 @@
+PGPASSWORD=password psql -U postgres -d lab_2 -h localhost -a -f update_tables.sql
