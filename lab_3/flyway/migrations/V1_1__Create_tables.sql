@@ -8,7 +8,7 @@ CREATE TABLE table_2 (
   name VARCHAR
 );
 
-CREATE TABLE table_ (
+CREATE TABLE table_3 (
   id INTEGER,
   name VARCHAR
 );
