@@ -1,0 +1,1 @@
+PGPASSWORD=password psql -U postgres -d lab_3 -h localhost -a -f get_sizes.sql
